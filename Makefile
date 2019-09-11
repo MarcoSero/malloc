@@ -1,3 +1,3 @@
 all: malloc.c
-	clang -o malloc malloc.c && ./malloc
+	clang -o malloc.out malloc.c && ./malloc.out
 
